@@ -29,7 +29,7 @@ console.log(`The Minimum Score is: ${MinScore}`);
 
 const birthDate = [1989,1990,1997,1999,2002,2003,2006];
 
-let birthYear = birthDate.some(function(){
+let birthYear = birthDate.some(function(element,index,birthDate){
     return element > 1989;
 });
 
