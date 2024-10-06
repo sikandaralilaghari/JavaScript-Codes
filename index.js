@@ -23,3 +23,17 @@ function getMax(accumulator, element){
 
 const MinScore = grades.reduce((accumulator,element)=>{return Math.min(accumulator, element)});
 console.log(`The Minimum Score is: ${MinScore}`);
+
+
+
+
+const birthDate = [1989,1990,1997,1999,2002,2003,2006];
+
+let birthYear = birthDate.some(function(){
+    return element > 1989;
+});
+
+console.log(birthYear);
+   
+
+
