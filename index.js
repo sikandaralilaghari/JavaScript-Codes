@@ -87,7 +87,7 @@ console.log(`Highest Number in Sorted Array: ${highestNumber}`);
 console.log(`Lowest Number in Sorted Array: ${lowestNumber}`);
 
 
-     reversedNumbers = numbers.arrays((a,b)=> b - a);
+     reversedNumbers = arrays.sort((a,b)=> b - a);
 
 console.log(`Reversed Numbers: ${reversedNumbers}`);
 
@@ -96,3 +96,9 @@ console.log(`Reversed Numbers: ${reversedNumbers}`);
 console.log(`Highest Number in Reversed Array: ${highestNumber}`);
 console.log(`Lowest Number in Reversed Array: ${lowestNumber}`);
 
+//program no 1
+
+  var name = "Sikandar Ali";
+  console.log(name);
+  name = "Khalid Laghari";
+  console.log(name);
