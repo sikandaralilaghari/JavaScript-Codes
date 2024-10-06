@@ -14,3 +14,8 @@ just like some method it has three parameter 1. element 2. index 3. Numbers of a
 Update very method.
 #Every method is used to return true or false by comparing every value in the array.
 
+SORT METHOD IN JAVASCRIPT:
+The sort() method in JavaScript is used to sort an element of an array in ascending order.
+
+The sort() method is used to update the original when you print original array it will gives values in sorted way after the applying condition of sort method
+

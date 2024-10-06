@@ -45,3 +45,9 @@ console.log(availableNumber);
    
 
 
+let names = ["Sikandar","Kainat","Reshma","Naseema","Sumera","Hanifa"];
+
+let updated_name = names.sort();
+console.log(updated_name);
+// now It will also arranged in ascending order 
+console.log(names);
