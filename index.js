@@ -68,3 +68,31 @@ let updatedNumbers = numbers.sort((a,b)=> a -b);
 console.log(updatedNumbers);
 
 console.log("Hello, This is Sikadar Ali Laghari");
+
+let reversedNumbers = numbers.sort((a,b)=> b - a);
+console.log(reversedNumbers);
+
+let lowestNumbers = reversedNumbers[0];
+console.log(reversedNumbers);
+
+
+
+
+let arrays = [67,68,76,34,36,98,54,76, 103, 106, 23, 35, 19];
+let sortedNumbers = arrays.sort((a,b)=> a - b);
+console.log(`Sorted Numbers: ${sortedNumbers}`);
+let highestNumber = sortedNumbers[sortedNumbers.length - 1];
+let lowestNumber = sortedNumbers[0];
+console.log(`Highest Number in Sorted Array: ${highestNumber}`);
+console.log(`Lowest Number in Sorted Array: ${lowestNumber}`);
+
+
+     reversedNumbers = numbers.arrays((a,b)=> b - a);
+
+console.log(`Reversed Numbers: ${reversedNumbers}`);
+
+ highestNumber = reversedNumbers[0];
+ lowestNumber = reversedNumbers[reversedNumbers.length -1];
+console.log(`Highest Number in Reversed Array: ${highestNumber}`);
+console.log(`Lowest Number in Reversed Array: ${lowestNumber}`);
+
