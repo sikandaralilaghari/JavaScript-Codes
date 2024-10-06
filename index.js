@@ -19,3 +19,7 @@ console.log(`Maximum Score is: ${maxScore}`)
 function getMax(accumulator, element){
     return Math.max(accumulator,element);
 }
+
+
+const MinScore = grades.reduce((accumulator,element)=>{return Math.min(accumulator, element)});
+console.log(`The Minimum Score is: ${MinScore}`);
