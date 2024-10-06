@@ -42,3 +42,8 @@ it declares onces
 Numbers and Strings in JavaScript:
 Javascript has only one number type: number, which can represent both integer and float pointing number
 Special  value = infinity 1/0
+NaN: Not a Number
+
+Numbers Method: toFixed(), toString()
+
+#Template literal show results by using back tick and write variable in middle bracket with $ sign infront of bracket

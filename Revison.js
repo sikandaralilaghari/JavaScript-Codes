@@ -79,3 +79,25 @@ console.log(fullName.slice(9,16));
 //replace parts of string with an other string
 console.log(fullName.replace('Laghari','Ali'));
 
+// Template Literals
+
+console.log(`FirstName: ${firstName} lastName: ${lastName}`);
+
+// Conversion between Numbers and Strings
+// Number, parseInt, parseFloat
+
+let idigit = Number ("45") + 11;
+let fdigit = parseFloat ("45.5")+11;
+let hello = parseInt("1400")+11;
+console.log(idigit);
+console.log(fdigit);
+console.log(hello);
+
+// Numbers to String 
+
+let str1 = idigit.toString()+"Hello";
+let str2 = fdigit.toString()+"Khalid";
+let str3 = hello.toString()+"hi";
+console.log(str1);
+console.log(str2);
+console.log(str3);
