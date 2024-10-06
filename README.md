@@ -25,3 +25,51 @@ Now we are going to using sorting with numbers. with numbers when we apply numbe
 
 I have used sort method to generate the number in ascending order and in descending.  I also find highest and lowest in the sorted array. and I have also found highest value and lowest value in reversedOrder array.
 
+
+
+Variables and const variables in javaScript:
+using of var var is global scope and again initializable 
+I have example of code
+Resignable yes
+
+2. let block scoped only accessible in the block it is declared
+Reassignable yes
+
+3. const like let blocked scoped. It can't be resassignable
+it declares onces
+
+
+Numbers and Strings in JavaScript:
+Javascript has only one number type: number, which can represent both integer and float pointing number
+Special  value = infinity 1/0
+NaN: Not a Number
+
+Numbers Method: toFixed(), toString()
+
+#Template literal show results by using back tick and write variable in middle bracket with $ sign infront of bracket.
+#Conversion between Numbers and Strings in javaScript
+
+
+#Boolean true or false
+
+Falsy Values: false, 0, Null, Undefined, NaN, "" empty String
+Truthy Values: Everything else, (non zero numbers, non empty strings, objects, arrays)
+// Booleans are used in logical operation and, or , not
+
+
+Implicit boolean conversion
+performs in conditional expressions
+
+// Type conversion in javascript
+change value in one data type to another
+// Implicit types means automatically conversion
+
+// Explicit type conversion using methods
+//String Method and toString() Method
+// Number Method
+//parseInt()
+//parseFloat()
+//unary operator is used str change into number + sign
+
+
+#Arrays in JavaScript
