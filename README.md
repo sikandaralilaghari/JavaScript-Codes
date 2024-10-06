@@ -46,4 +46,27 @@ NaN: Not a Number
 
 Numbers Method: toFixed(), toString()
 
-#Template literal show results by using back tick and write variable in middle bracket with $ sign infront of bracket
+#Template literal show results by using back tick and write variable in middle bracket with $ sign infront of bracket.
+#Conversion between Numbers and Strings in javaScript
+
+
+#Boolean true or false
+
+Falsy Values: false, 0, Null, Undefined, NaN, "" empty String
+Truthy Values: Everything else, (non zero numbers, non empty strings, objects, arrays)
+// Booleans are used in logical operation and, or , not
+
+
+Implicit boolean conversion
+performs in conditional expressions
+
+// Type conversion in javascript
+change value in one data type to another
+// Implicit types means automatically conversion
+
+// Explicit type conversion using methods
+//String Method and toString() Method
+// Number Method
+//parseInt()
+//parseFloat()
+//unary operator is used str change into number + sign

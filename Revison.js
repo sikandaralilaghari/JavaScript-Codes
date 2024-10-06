@@ -101,3 +101,92 @@ let str3 = hello.toString()+"hi";
 console.log(str1);
 console.log(str2);
 console.log(str3);
+
+//Boolean Values
+
+let isTrue = true;
+let isFalse = false;
+console.log(isTrue);
+console.log(isFalse);
+
+// Boolean Constructor
+
+let isTruthy = Boolean(1);
+let isFalsy  = Boolean(0);
+console.log(isTruthy);
+console.log(isFalsy);
+
+// Using boolean in condition
+
+let isTruth = true;
+if(isTruth){
+    console.log("Welcome!");
+}
+else{
+    console.log("Please Log in!");
+}
+
+let hu = true;
+let hy  = false;
+
+console.log(hu && hy);
+console.log(hu || hy);
+console.log(!hu);
+console.log(!hy);
+
+// impilicit conversion means automatically conversion
+
+let stu = "Hello";
+if(stu){
+    console.log("The statement is truthy");
+}
+
+// String + Numbers = String
+// String - "Number" = Number
+
+let stw = '5' + 2;
+console.log(stw); // 52
+stw = '5' - 2;
+console.log(stw); // 3
+
+stw = '5' * 2;
+console.log(stw);// 10
+stw = '5'/2;
+console.log(stw); // 2.5
+
+// Boolean to NUmber
+
+let sum = true +2;
+console.log(sum);
+
+// Comparison Coercion
+
+let result = '5' == 5;
+console.log(result);
+
+// Explicit type conversion using methods 
+// Using Strnig
+let heu = 134;
+let st3 = String(heu)+9;
+console.log(st3);
+// toString
+st3 = heu.toString()+67;
+console.log(st3);
+
+//  Number
+let hum = "123";
+let muh = Number(hum) + 5;
+console.log(muh);
+muh = parseInt(hum)+5;
+console.log(muh);
+muh = parseFloat(hum)+0.45;
+console.log(muh);
+
+let huj = +hum +(5);
+console.log(huj);
+
+let stum = '123';
+let mum = Number(stum) + 6;
+let bool = Boolean(stum);
+console.log(bool);
+console.log(mum);
