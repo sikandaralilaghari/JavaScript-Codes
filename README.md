@@ -25,3 +25,8 @@ Now we are going to using sorting with numbers. with numbers when we apply numbe
 
 I have used sort method to generate the number in ascending order and in descending.  I also find highest and lowest in the sorted array. and I have also found highest value and lowest value in reversedOrder array.
 
+
+
+Variables and const variables in javaScript:
+using of var var is global scope and again initializable 
+I have example of code
