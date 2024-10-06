@@ -10,3 +10,4 @@ Some method takes three parameters one is element which is compulsory. Remaining
 
 #Every() Method in javascript:
 The every() method  in javascript returns a Boolean Value true. if each and every element in array satisfies the given condition. otherwise, it returns false.
+just like some method it has three parameter 1. element 2. index 3. Numbers of array
