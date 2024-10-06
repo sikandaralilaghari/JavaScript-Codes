@@ -34,6 +34,14 @@ let birthYear = birthDate.some(function(element,index,birthDate){
 });
 
 console.log(birthYear);
+
+
+const Numbers = [1,2,3,4,5,6,7,8,9];
+let availableNumber = Numbers.every(function  (element,index,Numbers){
+    return element > 0;
+});
+console.log(availableNumber);
+
    
 
 
