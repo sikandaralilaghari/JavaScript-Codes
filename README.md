@@ -30,3 +30,15 @@ I have used sort method to generate the number in ascending order and in descend
 Variables and const variables in javaScript:
 using of var var is global scope and again initializable 
 I have example of code
+Resignable yes
+
+2. let block scoped only accessible in the block it is declared
+Reassignable yes
+
+3. const like let blocked scoped. It can't be resassignable
+it declares onces
+
+
+Numbers and Strings in JavaScript:
+Javascript has only one number type: number, which can represent both integer and float pointing number
+Special  value = infinity 1/0
