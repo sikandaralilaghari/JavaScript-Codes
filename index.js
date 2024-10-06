@@ -43,7 +43,7 @@ let availableNumber = Numbers.every(function  (element,index,Numbers){
 console.log(availableNumber);
 
    
-
+// Sorting array with Strings
 
 let names = ["Sikandar","Kainat","Reshma","Naseema","Sumera","Hanifa"];
 
@@ -58,3 +58,11 @@ let Names = ["Jameel","Haleem","Sania","Fareena","Najma","Kainat"];
 let updatedNames = Names.sort().reverse();
 
 console.log(updatedNames);
+
+// Sorting arrays with numeric value
+
+let numbers = [67,68,76,34,36,98,54,76, 103, 106, 23, 35, 19];
+
+let updatedNumbers = numbers.sort((a,b)=> a -b);
+
+console.log(updatedNumbers);

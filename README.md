@@ -18,6 +18,8 @@ SORT METHOD IN JAVASCRIPT:
 The sort() method in JavaScript is used to sort an element of an array in ascending order.
 
 The sort() method is used to update the original when you print original array it will gives values in sorted way after the applying condition of sort method.
-
+// Sorting arrays with String
 Now I want to sort array in the descending by using reverse method with sort
+
+Now we are going to using sorting with numbers
 
