@@ -51,3 +51,10 @@ let updated_name = names.sort();
 console.log(updated_name);
 // now It will also arranged in ascending order 
 console.log(names);
+
+
+let Names = ["Jameel","Haleem","Sania","Fareena","Najma","Kainat"];
+
+let updatedNames = Names.sort().reverse();
+
+console.log(updatedNames);
