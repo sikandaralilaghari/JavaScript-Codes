@@ -70,3 +70,6 @@ change value in one data type to another
 //parseInt()
 //parseFloat()
 //unary operator is used str change into number + sign
+
+
+#Arrays in JavaScript

@@ -190,3 +190,192 @@ let mum = Number(stum) + 6;
 let bool = Boolean(stum);
 console.log(bool);
 console.log(mum);
+
+// Arrays in javaScript
+
+const fruits = ['Apple','Banana','Mango'];
+
+for(let i in fruits){
+    console.log(fruits[i]);
+}
+console.log(fruits);
+
+// create Array using constructor 
+
+let sequence = new Array(1,2,3,4,5,6,6);
+
+for(let i of sequence){
+    console.log(i);
+}
+console.log(sequence);
+// Accessing array element 
+console.log(sequence[4]);
+// find length of the array
+console.log(sequence.length);
+
+// Adding element in the array use push operator to add number 0 index and if you want use unshift() add at last index
+
+sequence.push(6);
+console.log(sequence);
+sequence.unshift(456);
+console.log(sequence);
+
+// Remove element in the array and using pop method to remove last element and use shift operator removed
+// first element
+
+let udbs = [1,2,3];
+udbs.pop();
+udbs.shift();
+console.log(udbs);
+
+// iterating over arrays
+
+for(let i=0;i<udbs.length;i++){
+    console.log(udbs[i]);
+}
+
+// ForEach Element
+
+ let fruts = ['banana', 'Watermelon', 'Strawberry guava'];
+
+// Using forEach to iterate through the array
+fruts.forEach(len);
+
+function len(str){
+    console.log(str.length);
+}
+
+// USing Map create new Array in javaScript
+
+let animal = ['Sheep','goat','lion','cheetah','Tiger','Monkey'];
+
+let updateAnimal = animal.map(uppercase);
+console.log(updateAnimal);
+function uppercase(str){
+    return str.toUpperCase();
+}
+
+// Combine two or more arrays
+
+let arr1 = ['Apple','Banana'];
+let arr2 = ['guava','grapes'];
+let comFru = arr1 + arr2;
+console.log(comFru);
+
+
+// Slice and splice
+
+//slice returns portion of array, don't change original array
+
+let huma = [1,2,3,4,5,6,7,8,9];
+let sli = huma.slice(0,4);
+console.log(huma);
+console.log(sli);
+// Removing elements using splice
+let rmo = sli.splice(0,2);
+console.log(sli);
+console.log(rmo);
+// Splice removes and adds element in the array
+//Adding element using splice()
+
+
+let colors = ['Red','Green','Blue'];
+colors.splice(1,0,'Pink',"Yellow");
+console.log(colors);
+
+
+// Replacing element using splice
+
+colors.splice(1,1,"Yellow");
+console.log(colors);
+
+// Find return the first element which satisfy the condintion
+
+let numbers = [1,2,3,4,5];
+console.log(numbers.find((num)=> num>4));
+console.log(numbers.filter((num)=> num > 2));
+console.log(numbers);
+
+
+console.log(numbers.includes(5));
+
+//Multidimensional Array:
+
+let array = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+
+for(let i in array){
+    for(let j in array){
+        console.log(array[i][j]);
+    }
+}
+
+// Array Mutability
+
+let nu = [1,2,3];
+nu[2] = 7;
+console.log(nu);
+
+
+let hamad = [56,34,35,6,4,76,75,34];
+
+console.log(hamad.map((num)=>num +num));
+console.log(hamad.filter((num)=>num >34));
+console.log(hamad.reduce((acc,element)=> acc + element));
+hamad.forEach((num)=> console.log( num * 2));
+
+// Spread operator is used for remaining the immutability in the array
+
+let newArr = [...hamad,7];
+console.log(hamad);
+console.log(newArr);
+
+// Destructuring the arrays 
+
+let [u,v,c,d,e,f,g,h] = [56,34,35,6,4,76,75,34];
+console.log(`U:${u} V:${v} C:${c} D:${d} E:${e} F:${f} G:${g} H: ${h}`)
+// used rest operator combine arrays
+let arr4 = [1,2,3];
+
+let Newarr = [...hamad,...arr4];
+console.log(hamad);
+console.log(arr4);
+console.log(Newarr);
+
+
+//pass function as a array
+
+function Total(...nums){
+    return nums.reduce((acc,element)=> acc + element);
+}
+
+console.log(Total(1,2,3,4,5,6,7,8));
+
+//Array .from method
+function example(){
+    let args = Array.from(arguments);
+    console.log(args);
+}
+
+example(1,2,3,4,5);
+
+// flatenning the 2d array convert 2d array into 1d array
+
+
+let nested = [[1,2],[3,4],[5]];
+let flat = nested.reduce((acc,val)=> acc.concat(val),[]);
+
+console.log(flat);
+
+nested = ['banana','apple','mango','banana','apple'];
+
+let count = nested.reduce((acc,element)=>{
+    acc[element] = (acc[element] || 0) + 1;
+    return acc;
+})
+
+console.log(count);
+
