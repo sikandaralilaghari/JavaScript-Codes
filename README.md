@@ -73,3 +73,17 @@ change value in one data type to another
 
 
 #Arrays in JavaScript
+
+
+There are three ways to create objects in javaScript:
+
+1. Using object literal
+2. Using new Keyword
+3. constructor
+
+Bracket Notation in the object is used when we call object properties dynamically
+
+Adding and deleting properties in the javaScript Objects
+checking for the checking existence property in the javaScript
+
+1. The function of in operator

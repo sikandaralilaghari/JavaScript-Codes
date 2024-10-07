@@ -379,3 +379,190 @@ let count = nested.reduce((acc,element)=>{
 
 console.log(count);
 
+
+
+
+let purson = {
+    name:"Sikandar Ali",
+    age:23,
+    city:"Daharki",
+    greet:function(){
+        console.log("Hello, I am "+this.name);
+    }
+
+    
+}
+
+console.log(purson.name);
+console.log(purson.age);
+console.log(purson.city);
+purson.greet();
+
+
+let car = new Object();
+
+car.brand = 'Toyota';
+car.year = 2020;
+car.model = 'Gli';
+
+console.log(car.brand);
+console.log(car.year);
+console.log(car.model);
+
+
+function awais(name,age,city){
+    this.name = name;
+    this.age = age;
+    this.city = city;
+}
+
+person1 = new awais("Sikandar Ali", 25, "Daharki");
+person2 = new awais("Khalid", 33, "MPM");
+
+
+console.log(person1.name);
+console.log(person1.age);
+console.log(person1.city);
+
+
+console.log(person2.name);
+console.log(person2.age);
+console.log(person2.city);
+
+
+class Animal{
+    constructor(name, species){
+        this.name = name;
+        this.species = species;
+    }
+
+    speak(){
+        console.log(` ${this.name} makes a sounds`);
+    }}
+
+
+     let Dog = new Animal ("Dog","Mammal");
+    
+
+Dog.speak();
+
+
+let obj = {name:"Sikandar Ali", age:23, city:"Daharki"};
+obj.age = 34;
+
+console.log(obj);
+
+console.log(obj["name"]);
+let key = "age";
+console.log(obj[key]);
+
+
+//Adding and deleting properties in the javaScript
+
+ obj.country = "Pakistan";
+ console.log(obj);
+
+ // a propert we can use keyword delete
+
+ delete obj.country;
+
+ console.log(obj);
+
+ // Checking for property existance in the objects
+
+console.log("country" in obj);
+console.log("age" in obj);
+console.log("name" in obj);
+
+
+// hasOwnProperty Method
+
+console.log(obj.hasOwnProperty("name"));
+console.log(obj.hasOwnProperty("age"));
+console.log(obj.hasOwnProperty("country"));
+
+// Object.keys()
+console.log(Object.keys(obj)); 
+// Object.Values() 
+console.log(Object.values(obj));
+// Object.entries()
+console.log(Object.entries(obj));
+let uder = {name:"Sikandar", age:34};
+let valuePair = Object.entries(uder);
+console.log(valuePair);
+
+console.log(uder);
+// Object Assign
+
+// copies the value of all enumerable properties 
+
+let target = {a:1,b:2};
+let source = {b:4,c:5};
+
+let yest = Object.assign(target,source);
+console.log(yest);
+
+// object freeze prevents modification in the property values
+
+Object.freeze(yest);
+
+yest.a = 6;
+console.log(yest);
+
+// Iterating objects
+// for in propery 
+
+for(key in source){
+    console.log(source[key]);
+}
+
+Object.keys(obj).forEach(key=>{
+console.log(key+": "+(obj[key]));
+})
+
+// This keyword in this object 
+
+let umer = {
+    brand :"Toyota",
+    model: "GLI",
+
+    display_Info:function(){
+        console.log(`${this.brand} ${this.model}`);
+    } 
+}
+
+umer.display_Info();
+
+let student = {
+    name: "Sikandar Ali",
+    nam : "Hello",
+    price:22,
+    grades:{
+        math:"A",
+        eng : "B"
+    },
+    courses:["Math","Sciences","Literature"]
+}
+
+console.log(student.grades.math);
+console.log(student.courses[2]);
+
+// Object Destructuring 
+///let  {nam , price } = student;
+//console.log(nam);
+//console.log(price);
+
+// You can also rename properties using during structuring the  objecs
+let aloo = {name:"Aloo", age:34};
+
+let {name:AlooName, age: AlooAge} = aloo;
+console.log(AlooName);
+console.log(AlooAge);
+
+// Ternary operator in javascript
+
+let allow = 17;
+
+let canVote = (allow>=18) ? "You can Vote":"You cannot Vote";
+
+console.log(canVote);
