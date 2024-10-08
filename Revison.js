@@ -567,10 +567,6 @@ let canVote = (allow>=18) ? "You can Vote":"You cannot Vote";
 
 console.log(canVote);
 
-
-//Closure in javaScript 
-
-
 function closer(){
     var name = "Mozilla";
     
@@ -582,9 +578,9 @@ function closer(){
     return display;
 }
 
-let m = closer();
+let we = closer();
 
-m();
+we();
 function returnFunction(){
 const x = () =>{
     let a = 1;
@@ -606,5 +602,18 @@ return x}
 
 let k = returnFunction();
 
-k();
 
+
+
+
+
+// Null coalescing ?? in javaScript
+
+const foo = null ?? 'default String';
+console.log(foo);
+// Expected output: default string
+
+const baz = 0 ?? 42;
+console.log(baz);
+
+//Expected output: 42
