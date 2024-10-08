@@ -566,3 +566,45 @@ let allow = 17;
 let canVote = (allow>=18) ? "You can Vote":"You cannot Vote";
 
 console.log(canVote);
+
+
+//Closure in javaScript 
+
+
+function closer(){
+    var name = "Mozilla";
+    
+    function display(){
+        console.log(name);
+    }
+    name = "harry"
+    
+    return display;
+}
+
+let m = closer();
+
+m();
+function returnFunction(){
+const x = () =>{
+    let a = 1;
+    console.log(a);
+    const y = () =>{
+        let a = 2;
+        console.log(a);
+        const z = () =>{
+            let a = 3;
+            console.log(a);
+        }
+        z()
+    }
+    
+    y();
+}
+
+return x}
+
+let k = returnFunction();
+
+k();
+
