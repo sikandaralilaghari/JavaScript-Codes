@@ -87,3 +87,12 @@ Adding and deleting properties in the javaScript Objects
 checking for the checking existence property in the javaScript
 
 1. The function of in operator
+2. hasOwnProperty() 
+
+JavaScript methods
+1. Object.keys() // Returns an property of object
+
+#closure in javascript:
+A closure is the combination of function bundled together enclosed with a references to its surrounding state the lexical environment
+
+
