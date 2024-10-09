@@ -617,3 +617,15 @@ const baz = 0 ?? 42;
 console.log(baz);
 
 //Expected output: 42
+
+function *foo(){
+    yield "Sikadar Laghari",
+    yield "Sikandar Salar Laghari",
+    yield "Kainat Laghari"
+
+}
+
+let sa = foo();
+console.log(sa.next());
+console.log(sa.next());
+console.log(sa.next());
