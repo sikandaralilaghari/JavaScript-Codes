@@ -631,4 +631,9 @@ console.log(sa.next());
 console.log(sa.next());
 
 console.log("Kainat Laghari");
+<<<<<<< HEAD
 console.log("Sikandar Ali Laghari");
+=======
+
+console.log("Sikandar Ali Laghari");
+>>>>>>> secondary
