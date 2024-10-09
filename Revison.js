@@ -618,45 +618,12 @@ console.log(baz);
 
 //Expected output: 42
 
-// Call Stack in javascript
-// greet is pushed to stack and then removed after execution 
-function gret(){
-    console.log("Welcome to sukkur");
-}
-
-gret();
-
-// Event queue Example
-console.log("A");
-setTimeout (()=>{console.log('Aysnc Task'),34});
-console.log("B");
-
-// Synchronous Example
-
-console.log("Step 1:")
-console.log("Step 2:")
-console.log("Step 3")
-
-// Asynchronous Example
-
-console.log("A");
-setTimeout(()=>console.log("Asyc"), 3000);
-console.log("B");
-
-function *test(){
-    yield  "first",
-    yield "second",
-    yield 'third'
+function *foo(){
+    yield "Sikadar Laghari",
+    yield "Sikandar Salar Laghari",
+    yield "Kainat Laghari"
 
 }
-
-let gen = test();
-
-console.log(gen.next());
-console.log(gen.next());
-console.log(gen.next());
-
-console.log("Hello World!");
 
 let sa = foo();
 console.log(sa.next());
@@ -664,5 +631,4 @@ console.log(sa.next());
 console.log(sa.next());
 
 console.log("Kainat Laghari");
-
-
+console.log("Sikandar Ali Laghari");
