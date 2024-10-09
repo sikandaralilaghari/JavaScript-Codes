@@ -642,3 +642,16 @@ console.log("Step 3")
 console.log("A");
 setTimeout(()=>console.log("Asyc"), 3000);
 console.log("B");
+
+function *test(){
+    yield  "first",
+    yield "second",
+    yield 'third'
+
+}
+
+let gen = test();
+
+console.log(gen.next());
+console.log(gen.next());
+console.log(gen.next());
