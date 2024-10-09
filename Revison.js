@@ -618,14 +618,14 @@ console.log(baz);
 
 //Expected output: 42
 
-function *foo(){
+function *oof(){
     yield "Sikadar Laghari",
     yield "Sikandar Salar Laghari",
     yield "Kainat Laghari"
 
 }
 
-let sa = foo();
+let sa = oof();
 console.log(sa.next());
 console.log(sa.next());
 console.log(sa.next());
@@ -648,4 +648,89 @@ const fo = function* () {
   
   console.log(str);
   // Expected output: "abc"
+  
+
+  // NO constructor in generators
+
+  function *generator(){
+    yield 1;
+    yield 2;
+    yield 3;
+
+
+  }
+
+  const gn = generator();
+
+  console.log(gn.next().value);
+  console.log(gn.next().value);
+  console.log(gn.next().value);
+
+
+
+  function* hamza(){
+
+    console.log("Before 1");
+    yield 1
+    console.log("After 1")
+    console.log("Before 2")
+    yield 2
+    console.log("After 2")
+    console.log("Before 3")
+    yield 3
+    console.log("After 3")
+  }
+
+  let ham = hamza();
+  console.log(ham.next().value);
+  console.log(ham.next().value);
+  console.log(ham.next().value);
+  console.log(ham.next().value);
+
+
+  // Use case for generator in  javascript
+  // code 
+
+
+  function* Gad(array){
+    for(i =0;i<array.length;i++){
+        yield array[i]
+    }
+  }
+
+  oj = Gad([1,2,3,4,5,6,7]);
+  console.log(oj.next().value);
+  console.log(oj.next().value);
+  console.log(oj.next().value);
+  console.log(oj.next().value);
+  console.log(oj.next().value);
+  console.log(oj.next().value);
+  console.log(oj.next().value);
+
+
+  
+  let id = 1;
+
+  function* Gadd(){
+    while(true){
+        const increment  = yield id
+
+        if (increment!=null){
+            id+=increment
+        }
+        else{
+        id++}
+        
+    }
+    
+  }
+
+
+  let sanam = Gadd();
+
+  console.log(sanam.next())
+  console.log(sanam.next())
+  console.log(sanam.throw(new Error("Kainat")))
+  //console.log(sanam.return(1))
+  console.log(sanam.next(3))
   
