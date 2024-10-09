@@ -95,4 +95,17 @@ JavaScript methods
 #closure in javascript:
 A closure is the combination of function bundled together enclosed with a references to its surrounding state the lexical environment
 
+Generators are the type of function in which you have to control on them. let suppose you have a function name madhan () and  set of statements you want to control statement by yours. So there is a concept of Generators in javascript. Javascript function declare with function *test(){// we introduce word yield 
 
+yield: "first",
+yield: "two",
+yield: "three"
+
+}// yield mean pause the value and we introduce variable to store this of function 
+
+let g = first();
+// another concept will be used for the calling the statement in the function next function willbe used
+
+g.next(); // first
+g.next();//second
+g.next();//third
