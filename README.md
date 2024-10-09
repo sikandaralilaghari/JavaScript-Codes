@@ -109,3 +109,9 @@ let g = first();
 g.next(); // first
 g.next();//second
 g.next();//third
+
+
+Generator in javaScript:
+The Generator object is returned by a generator function and it conforms to both the iterable protocol and the iterator protocol.
+
+Generator is a subclass of the hidden Iterator class.
