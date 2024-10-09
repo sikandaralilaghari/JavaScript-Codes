@@ -636,4 +636,23 @@ console.log("Sikandar Ali Laghari");
 =======
 
 console.log("Sikandar Ali Laghari");
+<<<<<<< HEAD
+>>>>>>> secondary
+=======
+
+
+const fo = function* () {
+    yield 'a';
+    yield 'b';
+    yield 'c';
+  };
+  
+  let str = '';
+  for (const val of fo()) {
+    str = str + val;
+  }
+  
+  console.log(str);
+  // Expected output: "abc"
+  
 >>>>>>> secondary
