@@ -95,4 +95,47 @@ JavaScript methods
 #closure in javascript:
 A closure is the combination of function bundled together enclosed with a references to its surrounding state the lexical environment
 
+#Nullish coelscing operator in javascript : ??
+The nullish coalescing (??) operator is a logical operator that returns its right hand side operand when its left-hand side is null.
 
+Errors in in javascript 
+#Syntax error: create instance representing a syntax error
+#ReferenceError
+Creates an instance representing an error that occurs when de-referencing an invalid reference
+Example: console.log(notDefinedVariable);
+TypeError
+Creates an instance representing an error that occurs when a variable or parameter is not of a valid type.
+Example: 
+let num = 42;
+num.toUpperCase();
+Undefined error: When a variable is declared but it is not assigned yet this is called as undefined error
+Example:
+let x;
+console.log(x);
+
+#RangeError
+Creates an instance representing an error that occurs when a numeric variable or parameter is outside its valid range.
+Example: let arr = new Array(-5);
+#Call Stack:
+The Call Stack where JavaScript keeps track of function calls. Functions are added to the stack when called and removed when they finish executing
+
+#Event Queue holds asynchronous callbacks like setTimeOut. Once the callStack is empty, tasks from the event queue are moved to call stack queue 
+
+#Callback and Event queue
+The event loop continuously checks the call stack and the task queue. If the call stack is empty, it moves tasks from the task queue to the call stack for execution. This process ensures that asynchronous tasks don't interfere with the synchronous execution of code.
+
+#Web API: A web API is an application programming interface for the Web. 
+The API provides an easy syntax to use the complex code. For example, you can use the GeoLocation API to get the coordinates of the users with two lines of code. You don't need to worry about how it works in the backend.
+
+Synchronous means that tasks happen one after another. JavaScript will wait for each task to finish before starting the next one.
+
+Memory updated
+Synchronous:
+Synchronous means that tasks happen one after another. JavaScript will wait for each task to finish before starting the next one.
+
+Asynchronous:
+Asynchronous means that tasks can happen at the same time or after a delay. JavaScript doesn’t wait for these tasks and moves on to the next one.
+
+Blocking operations in javascript:
+Blocking operations are tasks that stop the program from doing anything else until they finish
+This means other code cannot run until the curent task is done.

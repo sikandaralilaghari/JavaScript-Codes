@@ -617,3 +617,28 @@ const baz = 0 ?? 42;
 console.log(baz);
 
 //Expected output: 42
+
+// Call Stack in javascript
+// greet is pushed to stack and then removed after execution 
+function gret(){
+    console.log("Welcome to sukkur");
+}
+
+gret();
+
+// Event queue Example
+console.log("A");
+setTimeout (()=>{console.log('Aysnc Task'),34});
+console.log("B");
+
+// Synchronous Example
+
+console.log("Step 1:")
+console.log("Step 2:")
+console.log("Step 3")
+
+// Asynchronous Example
+
+console.log("A");
+setTimeout(()=>console.log("Asyc"), 3000);
+console.log("B");
