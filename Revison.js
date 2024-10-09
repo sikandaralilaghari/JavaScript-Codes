@@ -655,3 +655,6 @@ let gen = test();
 console.log(gen.next());
 console.log(gen.next());
 console.log(gen.next());
+
+console.log("Hello World!");
+
