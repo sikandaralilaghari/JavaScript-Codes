@@ -139,3 +139,8 @@ Asynchronous means that tasks can happen at the same time or after a delay. Java
 Blocking operations in javascript:
 Blocking operations are tasks that stop the program from doing anything else until they finish
 This means other code cannot run until the curent task is done.
+
+use of git stash command
+The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy.
+Generators in javascript
+
