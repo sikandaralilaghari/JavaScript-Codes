@@ -658,3 +658,11 @@ console.log(gen.next());
 
 console.log("Hello World!");
 
+let sa = foo();
+console.log(sa.next());
+console.log(sa.next());
+console.log(sa.next());
+
+console.log("Kainat Laghari");
+
+
