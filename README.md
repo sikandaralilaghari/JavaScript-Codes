@@ -95,6 +95,7 @@ JavaScript methods
 #closure in javascript:
 A closure is the combination of function bundled together enclosed with a references to its surrounding state the lexical environment
 
+<<<<<<< HEAD
 #Nullish coelscing operator in javascript : ??
 The nullish coalescing (??) operator is a logical operator that returns its right hand side operand when its left-hand side is null.
 
@@ -143,4 +144,19 @@ This means other code cannot run until the curent task is done.
 use of git stash command
 The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy.
 Generators in javascript
+=======
+Generators are the type of function in which you have to control on them. let suppose you have a function name madhan () and  set of statements you want to control statement by yours. So there is a concept of Generators in javascript. Javascript function declare with function *test(){// we introduce word yield 
+>>>>>>> secondary
 
+yield: "first",
+yield: "two",
+yield: "three"
+
+}// yield mean pause the value and we introduce variable to store this of function 
+
+let g = first();
+// another concept will be used for the calling the statement in the function next function willbe used
+
+g.next(); // first
+g.next();//second
+g.next();//third
